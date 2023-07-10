@@ -11,7 +11,11 @@
     padding: 10px;
 }
 .nav-logo{
-    
+    font-size: 15px;
+    color: aqua;
+    display: flex;
+    align-items: center;
+
     
 }
 .nav-menu{
@@ -57,7 +61,7 @@
 .banner-button{
     background-color:#F52C2C;
     border: none;
-    color: rgb(186, 183, 183);
+    color: #fff;
     font-size: 20px;
     padding: 12px 20px;
     letter-spacing: -1px;
@@ -66,10 +70,142 @@
     background-color: #aeacac;
 }
 .banner-button1{
-    background-color:#fff;
+    background-color:#e2dbdb;
     border: none;
     font-size: 20px;
     padding: 10px 30px;
     letter-spacing: -1px;
 }
+/* this is service section */
+.service-section{
+    height: 100vh;
+    background-image:url(./asset/image/footer-bg.png),linear-gradient(rgb(12, 2, 2,0.9),rgba(8, 1, 1, 0.9));
+    background-blend-mode: overlay;
+    display: flex;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+.Service-title{
+    color: #F52C2C;
+}
+.author-description{
+    display: flex;
+}
+.btn2{
+    display: flex;
+    margin-left: 20px;
+}
+.author-description h3{
+    color: #fff;
+    display: inline-block;
+    padding: 20px;
 
+}
+.author-description > p{
+    color: #F52C2C;
+
+}
+.content-site{
+    width: 50%;
+    padding: 100px 60px 0px 30px;
+    
+}
+.content-site h1{
+    font-size: 38px;
+    color: #fff;
+}
+.content-site p{
+    margin: 30px 0px;
+    width: 80%;
+    font-size: 20px;
+    color: #D5D2D2;
+}
+.content-site ol{
+    margin: 30px 0px;
+    width: 80%;
+    padding: 0px 10px;
+    font-size: 20px;
+    color: #D5D2D2;
+}
+.image-title{
+    display: flex;
+    height: 80px;
+    
+}
+.image-title img{
+    border-radius: 50px;
+}
+.img-des{
+    margin: auto 10px;
+}
+.author-description h3{
+    margin: 0px;
+    padding: 0px;
+    font-size: 18px;
+    
+}
+.author-description p{
+    margin: 0px;
+    padding: 0px;
+    font-size: 14px;
+}
+.btn{
+    background-color: #fff;
+    width: 150px;
+    padding: 15px;
+    margin-bottom:20px ;
+    border: none;
+    border-radius: 25px;
+    
+}
+.btn2 .btn{
+    margin-left: 15px;
+    margin-top: 15px;
+    color: #F52C2C;
+}
+.btn2 .btn:hover{
+    background-color: #aeacac;
+}
+.btn2 hr{
+    color: #F52C2C;
+}
+/* service section */
+.icon{
+    width: 100px;
+    margin-top: 70px;
+}
+.box{
+    width: 300px;
+    height: 300px;
+    background-color: #fff;
+    text-align: center;
+    border-radius: 8px;
+    margin: 10px 8px;
+    
+}
+.fist-2box{
+}
+.box-site{
+    width: 50%;
+    display: flex;
+    align-items: center;
+    padding: 30px;
+}
+.box h3{
+    margin: 20px;
+}
+/* this is blog and news section */
+.blog-news-container{
+    height: 100vh;
+}
+.all-card{
+
+}
+.card{
+
+}
+.card img{
+    width: 300px;
+    height: 200px;
+}
